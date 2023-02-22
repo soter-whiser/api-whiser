@@ -10,7 +10,7 @@ async function produto(request, response) {
     response.setHeader('Cache-Control', 'smaxage=60, stale-while-revalidate');
                                             
     response.json({
-        cataventoResponse
+        
     });
 }
 
