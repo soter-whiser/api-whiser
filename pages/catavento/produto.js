@@ -11,7 +11,7 @@ async function produto(request, response) {
                                             
     response.json({
         cataventoResponse
-    })
+    });
 }
 
-export default produto
+export default produto;
