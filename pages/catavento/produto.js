@@ -3,7 +3,7 @@ async function produto(request, response) {
 
     const cataventoResponse = await fetch('http://catavento2.api.winbooksweb.com.br/BDIApi/Produto/Buscar?codigo=9788555342080', {
                                         headers: {
-                                            'API_TOKEN': apiToken,
+                                            'API_TOKEN': 'apiToken',
                                         },
                                     });
     const cataventoResponseJson = await cataventoResponse.json();
